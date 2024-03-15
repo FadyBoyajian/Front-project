@@ -1,0 +1,47 @@
+.cart{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart img{
+    width: 200px;
+    text-align: center;
+}
+.cart h1{
+    color: rgb(1, 27, 146);
+    font-size: large;
+}
+.order{
+    width: 250px;
+    height: 250px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order h2{
+    color: rgb(0, 0, 0);
+    display: inline;
+}
+.theno{
+    text-align: center;
+    width: 75px;
+    height: 60px;
+    border: 3px rgb(180, 170, 170) solid;
+    color: rgb(218, 0, 0);
+    font-size: x-large;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.order button{
+cursor: pointer;
+display: block;
+background-color: black;
+color: aliceblue;
+border: 2px solid rgb(9, 9, 40);
+padding: 2px 10px;
+}

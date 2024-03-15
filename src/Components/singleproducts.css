@@ -1,0 +1,43 @@
+.cont{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items:  center;
+    flex-direction: row;
+    justify-content: center;
+}
+.sbox{
+    width: 80%;
+    height: 70%;
+    text-wrap: wrap;
+    box-shadow: 50%;
+    border: black 2px solid;
+    border-radius: 20px;
+    object-fit: contain;
+    display: inline-block;
+    
+}
+.databox{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.databox a{
+    text-decoration: none;
+    border: 3px solid rgb(0, 0, 0);
+    color: azure;
+    font-size: large;
+    font-weight: 200;
+    border-radius: 10px;
+    padding: 15px 300px;
+    background-color: rgb(5, 3, 8);
+}
+.sbox img{
+    width: 250px;
+    float: inline-end;
+    padding: 10px 10px;
+
+}

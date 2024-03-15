@@ -1,0 +1,18 @@
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    text-decoration: none;
+    background-color: rgb(21, 18, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: hidden;
+    object-fit: contain;
+}
+.navbar a{
+    color: rgb(187, 228, 255);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
